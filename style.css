@@ -137,13 +137,13 @@
 
 }
 
-.take_a_closer_look img{
+/* .take_a_closer_look img{
   height: 400px;
   width: 1000px;
   border-radius: 5%;
   object-fit: cover;
   cursor: pointer;
-}
+} */
 
 .line-up_shops{
      width: 240px;
