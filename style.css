@@ -6,13 +6,12 @@
 }
 .nav_links{
     display: flex;              /* makes items horizontal */
-    z-index: 1000;
     justify-content: center;    /* centers the items */
     gap: 30px;                  /* space between items */
     list-style: none;           /* removes bullets */
 }
 .section{
-    padding: 60px;
+    padding: 20px;
     text-align: center; /* Here, text-align is used istead of justify content because it is neither flex nor container */
 }
 .iPhone{
@@ -125,7 +124,6 @@
 }
 .compare_models{
     text-align: center;
-    background-color: #ff6a00;
 }
 .take_a_closer_look{
     display: grid;
@@ -167,3 +165,75 @@
     margin: 60px;
 }
 
+.iphone-section {
+  padding: 40px;
+}
+
+.titles {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.titles select {
+  width: 250px;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Phones row */
+.phones {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+/* Phone card */
+.phone-card {
+  text-align: center;
+}
+
+.phone-card img {
+  width: 260px;
+}
+
+/* Color dots */
+.colors {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 16px 0 6px;
+}
+
+.dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  cursor: pointer;
+}
+
+.active {
+  border: 2px solid #0071e3;
+}
+
+/* Colors */
+.orange { background: orange; }
+.dark { background: #2c2c2c; }
+.white { background: #f5f5f5; }
+
+.blue { background: #cfe8ff; }
+.cream { background: #f8f6f1; }
+.black { background: #000; }
+
+.lavender { background: #d7c6f3; }
+.green { background: #a9b58f; }
+.gray { background: #444; }
+
+/* Label */
+.phone-card p {
+  font-size: 14px;
+  margin-top: 4px;
+}
