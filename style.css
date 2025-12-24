@@ -130,10 +130,19 @@
     background-color: #e4e6da;
     align-items: center;
     justify-content: center;
+    border-radius: 5%;
     margin: 60px;
     height: 400px;
     width: 1000px;
 
+}
+
+.take_a_closer_look img{
+  height: 400px;
+  width: 1000px;
+  border-radius: 5%;
+  object-fit: cover;
+  cursor: pointer;
 }
 
 .line-up_shops{
@@ -183,14 +192,13 @@
   border: 1px solid #ddd;
 }
 
-/* Phones row */
 .phones {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-/* Phone card */
+
 .phone-card {
   text-align: center;
 }
@@ -199,7 +207,7 @@
   width: 260px;
 }
 
-/* Color dots */
+
 .colors {
   display: flex;
   justify-content: center;
@@ -215,11 +223,6 @@
   cursor: pointer;
 }
 
-.active {
-  border: 2px solid #0071e3;
-}
-
-/* Colors */
 .orange { background: orange; }
 .dark { background: #2c2c2c; }
 .white { background: #f5f5f5; }
@@ -232,7 +235,6 @@
 .green { background: #a9b58f; }
 .gray { background: #444; }
 
-/* Label */
 .phone-card p {
   font-size: 14px;
   margin-top: 4px;
